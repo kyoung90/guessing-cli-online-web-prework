@@ -5,7 +5,7 @@ def run_guessing_game
   random_number = rand(1..6)
   # while user_response != "exit" || user_response 
   # end 
-  puts "#{if user_response == random_number end}"
+  puts "#{user_response == random_number}"
   if user_response == random_number
     puts "You guessed the correct number!"
   else 
