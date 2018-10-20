@@ -9,7 +9,9 @@ def run_guessing_game
       puts "You guessed the correct number!"
     else 
       puts "The computer guessed #{random_number}."
-    end 
+    end
+    user_response = gets.chomp
+  end 
   
   puts "Goodbye!"
 end 
